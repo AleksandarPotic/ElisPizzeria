@@ -1,0 +1,302 @@
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	@font-face {
+	    font-family: davidaa;
+	    src: url("../fonts/Davida.ttf");
+	}
+
+	#container1{
+		display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	    -ms-flex-align: center;
+	    -webkit-align-items: center;
+	    -webkit-box-align: center;
+	    align-items: center;
+	}
+
+	html, body {
+	    max-width: 100% !important;
+	    overflow-x: hidden !important;
+	}
+
+	.images{
+		width: 100%;
+		height: 100vh;
+		background-position: center center;
+		background-attachment: scroll;
+		background-repeat: no-repeat;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+	}
+
+	.mySlides {
+	    display: none;
+	}
+
+	.prev, .next {
+		cursor: pointer;
+		position: absolute;
+		top: 50%;
+		width: auto;
+		margin-top: -22px;
+		padding: 16px;
+		color: white;
+		font-weight: bold;
+		font-size: 18px;
+		transition: 0.6s ease;
+		border-radius: 0 3px 3px 0;
+	}
+
+	.next {
+	  right: 0;
+	  border-radius: 3px 0 0 3px;
+	}
+
+	.prev:hover, .next:hover {
+	  background-color: rgba(0,0,0,0.8);
+	}
+
+
+	#left{
+		width: 100%;
+		position: relative;
+		display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	    -ms-flex-align: center;
+	    -webkit-align-items: center;
+	    -webkit-box-align: center;
+	    align-items: center;
+	    font-family: 'Patua One', cursive;
+	    padding-top: 30px;
+	    padding-bottom: 30px;
+	}
+
+	.centered {
+		position: absolute;
+		top: 60%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color:white;
+	}
+
+	#sss{
+		margin-left: 0% !important;
+	}
+
+	#sss span{
+		background-color: rgb(116, 0, 16)!important; padding: 15px 15px;
+	}
+
+	#carry h1{
+		z-index: 5; white-space: nowrap; font-size: 30px; line-height: 30px; font-weight: 400; color: rgb(255, 255, 255); font-family: "Patua One"; text-shadow: rgba(0, 0, 0, 0.6) 0px 2px 2px; visibility: inherit; transition: none; text-align: inherit; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;
+	}
+
+	#carry #hey{
+		margin-bottom: 20px;
+	}
+
+	#carry #sss{
+		overflow-y: hidden;
+		padding-bottom: 15px;
+    padding-top: 5px;
+		}
+
+	#left h3{
+		margin-bottom: 20px;
+		color: #e66001;
+		font-family: 'Patua One', cursive;
+		font-size: 2.37rem;
+	}
+
+	#left p{
+		font-size: 1.1rem;
+		margin-top: 15px;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.special-color{
+		color: #e66001;
+	}
+
+	.right-sub{
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 100%;
+		height: 60vh;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment: scroll;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+	}
+
+	#university-logo{
+		padding: 0px;
+		display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	    -ms-flex-align: center;
+	    -webkit-align-items: center;
+	    -webkit-box-align: center;
+	    align-items: center;
+	}
+
+	#university-logo img{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#section-three-slider{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+
+
+	
+/**
+* Everything beyond the first media tag refers to mobile versions in portrait mode.
+* Css for mobile and tablet devices relates to all media tags up to 1023px browser width.
+**/
+
+@media (min-width: 544px) {
+	#sss{
+		margin-left: 11% !important;
+	}
+
+	#sss span{
+		background-color: rgb(116, 0, 16)!important; padding: 10px 15px;
+	}
+
+	#carry h1{
+		z-index: 5; white-space: nowrap; font-size: 55px; line-height: 55px; font-weight: 400; color: rgb(255, 255, 255); font-family: "Patua One"; text-shadow: rgba(0, 0, 0, 0.6) 0px 2px 2px; visibility: inherit; transition: none; text-align: inherit; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;
+	}
+
+	#box-button button{
+		padding: 25px 45px;
+	}
+	
+	#box-button{
+		position: relative;
+		height: 15vh;
+		background: transparent;
+		margin-top: -40vh;
+	}
+
+	.right-sub{
+		height: 80vh;
+	}
+
+ }
+
+@media (min-width: 768px) {
+	#carry #hey{
+		margin-bottom: 35px;
+	}
+
+	#left p{
+		font-size: 1.3rem;
+		margin-top: 15px;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.centered {
+		position: absolute;
+		top: 67%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color:white;
+	}
+
+	#sss{
+		margin-left: 22% !important;
+	}
+
+	#sss span{
+		background-color: rgb(116, 0, 16)!important; padding: 10px 15px;
+	}
+
+	#carry h1{
+		z-index: 5; white-space: nowrap; font-size: 82px; line-height: 82px; font-weight: 400; color: rgb(255, 255, 255); font-family: "Patua One"; text-shadow: rgba(0, 0, 0, 0.6) 0px 2px 2px; visibility: inherit; transition: none; text-align: inherit; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;
+	}
+	
+	#box-button{
+		position: relative;
+		height: 15vh;
+		background: transparent;
+		margin-top: -15vh;
+		display: block;
+	}
+
+	.right-sub{
+		height: 100vh;
+	}
+
+	#left h1{
+		font-size: 3.5rem;
+	}
+
+ }
+
+@media (min-width: 992px) {
+
+	#sss span{
+		background-color: rgb(116, 0, 16)!important; padding: 10px 15px; border-radius: 10px;
+	}
+
+	#carry h1{
+		z-index: 5; white-space: nowrap; font-size: 92px; line-height: 92px; font-weight: 400; color: rgb(255, 255, 255); font-family: "Patua One"; text-shadow: rgba(0, 0, 0, 0.6) 0px 2px 2px; visibility: inherit; transition: none; text-align: inherit; border-width: 0px; margin: 0px; padding: 0px; letter-spacing: 0px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;
+	}
+	
+	#dots{
+		display: block;
+	}
+
+	#left h1{
+		font-size: 4rem;
+	}
+
+	.images{
+		height: 92vh;
+	}
+
+	.right-sub{
+		height: 100vh;
+	}
+
+ }
+
+
+
+/**
+* From here we start with styling the site for desctop devices. 
+**/
+
+@media (min-width: 1200px) {
+
+		.right-sub{
+		height: 100vh;
+	}
+
+	#left{
+		width: 100%;
+		position: relative;
+		display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	    -ms-flex-align: center;
+	    -webkit-align-items: center;
+	    -webkit-box-align: center;
+	    align-items: center;
+	}
+
+ }

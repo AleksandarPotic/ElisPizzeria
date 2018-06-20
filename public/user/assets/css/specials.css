@@ -1,0 +1,33 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#dvojka{
+	color: #000;
+	transition: all .3s;
+}
+
+#dvojka:hover{
+	color: #FAB940;
+}
+
+@media (min-width: 320px){
+
+}
+
+@media (min-width: 544px){
+
+}
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+
+}
